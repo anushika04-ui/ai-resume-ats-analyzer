@@ -1,0 +1,13 @@
+{
+  "name": "ai-resume-ats-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n SERVER,CLIENT \"npm run dev --prefix server\" \"npm start --prefix ats-frontend\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm start --prefix ats-frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

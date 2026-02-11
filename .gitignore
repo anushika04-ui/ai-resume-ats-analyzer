@@ -1,0 +1,9 @@
+node_modules
+server/node_modules
+ats-frontend/node_modules
+
+.env
+uploads
+
+build
+dist
