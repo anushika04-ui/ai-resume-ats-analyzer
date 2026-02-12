@@ -1,4 +1,4 @@
-# AI Resume ATS Analyzer
+# Resume ATS Analyzer
 
 A beginner-friendly full-stack project that analyzes resume text (or a PDF resume) and optionally compares it with a Job Description to show:
 - ATS-style score
